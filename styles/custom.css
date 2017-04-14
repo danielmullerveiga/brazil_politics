@@ -1,0 +1,17 @@
+/*grid classes*/
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main_container{
+	height: 100vh;
+	flex-grow: 1;
+	background-color: #00F6C8;
+}
+
+.content_container{
+	height: 100vh;
+	flex-grow: 3;
+	background-color: #eee;
+}
