@@ -15,7 +15,7 @@ html {
 
 }
 
-/* HEADINGS AND PARAGRAPH */
+/* HEADINGS, PARAGRAPH AND TEXT */
 
 h1 {
 	font-family: 'nexa_boldregular', sans-serif;
@@ -47,6 +47,27 @@ span {
 	font-style: italic;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+	-o-transition:.2s;
+	-ms-transition:.2s;
+	-moz-transition:.2s;
+	-webkit-transition:.2s;
+	transition:.2s;
+}
+
+a:hover {
+	opacity: 0.5;
+}
+
+/* FONTAWESOME ICON */
+
+.fa {
+	font-size: 1.5rem;
+	margin-left: 0.75rem;
+}
+
 /* LAYOUT */
 
 .logo-header {
@@ -54,7 +75,7 @@ span {
 }
 
 .main-container {
-	background: #00F6C8 url(../images/img_pattern.png);
+	background: #00F6C8 url(../images/pattern.svg);
 	padding: 2rem 1.8rem 2rem 1.8rem;
 }
 
